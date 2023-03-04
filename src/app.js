@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5050;
 
 app.use(cors({
     origin:"https://splendorous-gumdrop-0c0736.netlify.app/",
-    methods:["GET","POST]
+    methods:["GET","POST"]
 }))
 app.use(express.json());
 app.use(cookieParser());
