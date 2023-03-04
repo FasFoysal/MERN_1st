@@ -9,7 +9,8 @@ var cors = require('cors');
 const PORT = process.env.PORT || 5050;
 
 app.use(cors({
-    origin:"https://mern-1st.onrender.com"
+    origin:"https://splendorous-gumdrop-0c0736.netlify.app/",
+    methods:["GET","POST]
 }))
 app.use(express.json());
 app.use(cookieParser());
